@@ -1,0 +1,16 @@
+server:
+  port: 8080
+app:
+ apiURL: "@apiURL@"
+ 
+management:
+ health:
+  diskspace:
+   enabled: false
+ endpoint:
+  health:
+    show-details: always
+ endpoints:
+  web:
+    exposure:
+     include: health		 
