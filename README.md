@@ -6,8 +6,6 @@
 Este projeto é um microsserviço Java que interage com a API pública [DummyJSON](https://dummyjson.com/docs/products) para realizar operações de busca de produtos. 
 Trata-se da modernização de um serviço que originalmente foi desenvolvido usando Java 8 e Spring Boot 2.6.x.
 
-O desafio consiste em migrar este projeto para Java 17 e Spring Boot 3.2.5. Durante a migração, você enfrentará várias dificuldades, incluindo a adaptação ao novo namespace, substituição de métodos depreciados e ajustes em testes unitários.
-
 ## Alterações realizadas
 
 1. Pom.xml ajustado  para usar Java 17+ e Spring Boot 3.2.5.
